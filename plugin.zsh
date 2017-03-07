@@ -6,7 +6,7 @@ function :fuzzy-search-and-edit:get-files() {
 
     command grep -r -nEHI '[[:alnum:]]' "." --exclude-dir=".git" \
         | cut -b3- \
-        | command sed -ru 's/^([^:]+:[^:]+):\s*(.*)/\x1b[35m\1\x1b[0m:  \2/' \
+        | command gsed -ru 's/^([^:]+:[^:]+):\s*(.*)/\x1b[35m\1\x1b[0m:  \2/' \
         > "$fifo"
 }
 
