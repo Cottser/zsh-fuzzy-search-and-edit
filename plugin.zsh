@@ -20,7 +20,7 @@ function :fuzzy-search-and-edit:abort-job() {
 }
 
 function fuzzy-search-and-edit() {
-    local dir="$(mktemp --tmpdir -d fuzzy-search-and-edit.XXXXXX)"
+    local dir="$(mktemp -d -t fuzzy-search-and-edit)"
     local fifo="$dir/fifo"
 
     mkfifo "$fifo"
