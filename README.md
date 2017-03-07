@@ -3,12 +3,15 @@
 It's a plugin for zsh, which offers widget for fuzzy searching and instantly
 opening matched file on matched line.
 
+This slight fork is tweaked for use on Macs with Sublime Text.
+
 ![fuzzy-search-and-edit](https://cloud.githubusercontent.com/assets/674812/16119705/79da30a2-33fe-11e6-9827-416c961a8b5f.gif)
 
 # Requirements
 
 * [fzf](https://github.com/junegunn/fzf);
 * [zsh-async](https://github.com/junegunn/fzf);
+* gnu-sed (install via Homebrew)
 
 # Installation
 
