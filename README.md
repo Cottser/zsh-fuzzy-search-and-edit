@@ -10,7 +10,7 @@ This slight fork is tweaked for use on Macs with Sublime Text.
 # Requirements
 
 * [fzf](https://github.com/junegunn/fzf);
-* [zsh-async](https://github.com/junegunn/fzf);
+* [zsh-async](https://github.com/mafredri/zsh-async);
 * gnu-sed (install via Homebrew)
 
 # Installation
@@ -19,7 +19,7 @@ This slight fork is tweaked for use on Macs with Sublime Text.
 
 ```fzf
 zgen load mafredri/zsh-async
-zgen load seletskiy/zsh-fuzzy-search-and-edit
+zgen load Cottser/zsh-fuzzy-search-and-edit
 ```
 
 # Usage
